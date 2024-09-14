@@ -17,7 +17,7 @@ public class Liar {
         ObjectMapper objectMapper = new ObjectMapper();
 
         // Указываем путь к папке с файлами
-        String directoryPath = "C:\\Users\\SumalyFly\\Downloads\\jsonbest";
+        String directoryPath = "jsonbest";
         File folder = new File(directoryPath);
         File[] jsonFilesLiar = folder.listFiles((dir, name) ->
                 name.toLowerCase().endsWith(".json") && name.equals("legendarygroups.json")
