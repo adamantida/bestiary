@@ -77,7 +77,7 @@ public class MonsterFluff {
     }
 
     public static List<MonsterFluff> processFiles() {
-        String directoryPath = "C:\\Users\\SumalyFly\\Downloads\\jsonDescription";  // Путь к папке с файлами
+        String directoryPath = "jsonDescription";  // Путь к папке с файлами
         File folder = new File(directoryPath);
 
         File[] jsonFiles = folder.listFiles((dir, name) ->
