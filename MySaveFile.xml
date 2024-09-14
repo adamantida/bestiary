@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.5" dataversion="20230911" release="8.1|CoreRPG:6">
+	<npc>
+		<abilities>
+			<charisma>
+				<bonus type="number">0</bonus>
+				<score type="number">11</score>
+			</charisma>
+			<constitution>
+				<bonus type="number">0</bonus>
+				<score type="number">10</score>
+			</constitution>
+			<dexterity>
+				<bonus type="number">2</bonus>
+				<score type="number">14</score>
+			</dexterity>
+			<intelligence>
+				<bonus type="number">0</bonus>
+				<score type="number">11</score>
+			</intelligence>
+			<strength>
+				<bonus type="number">0</bonus>
+				<score type="number">10</score>
+			</strength>
+			<wisdom>
+				<bonus type="number">1</bonus>
+				<score type="number">12</score>
+			</wisdom>
+		</abilities>
+		<ac type="number">12</ac>
+		<actions>
+			<id-00001>
+				<desc type="string">ddd</desc>
+				<name type="string">dd</name>
+			</id-00001>
+			<id-00002>
+				<desc type="string">dddd</desc>
+				<name type="string">ddd</name>
+			</id-00002>
+		</actions>
+		<alignment type="string">Neutral Good</alignment>
+		<bonusactions>
+			<id-00001>
+				<desc type="string">dddd</desc>
+				<name type="string">ddd</name>
+			</id-00001>
+		</bonusactions>
+		<cr type="string">1/4</cr>
+		<damagethreshold type="number">0</damagethreshold>
+		<hd type="string">(3d8)</hd>
+		<hp type="number">13</hp>
+		<innatespells />
+		<lairactions>
+			<id-00001>
+				<desc type="string">A strong wind blows around the dragon. Each creature within 60 feet of the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet away from the dragon and knocked prone. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames; such as lanterns, have a 50 percent chance of being extinguished.\nA cloud of sand swirls about in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners. Each creature in it must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+				<name type="string">On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects</name>
+			</id-00001>
+			<id-00002>
+				<desc type="string">At your discretion, a legendary (adult or ancient) brass dragon can use one or more of the following additional lair actions while in its lair:\n\n\nAnimate Statues. The dragon chooses up to three statues in the lair that it can see. Each of these statues briefly animates and attacks one creature within 5 feet of it, with a +7 bonus to hit and dealing  on a hit.\n\nBlast of Wind. A mighty wind sweeps through the lair in a direction of the dragon's choice, blowing along a line 40 feet wide and 100 feet long. Each creature in that area except the dragon must succeed on a DC 15 Strength saving throw or be pushed 15 feet in the wind's direction and be knocked prone. Gases and vapors are dispersed by the wind, and unprotected flames are extinguished. Protected flames, such as lanterns, have a 50 percent chance of being extinguished. If the dragon is within the area of the wind, it can choose to be pushed 15 feet in the wind's direction, and the wind can't knock the dragon prone.\n\nObscuring Sand. Dust and sand fill the air within 120 feet of the dragon, making the area lightly obscured until initiative count 20 on the next round.</desc>
+				<name type="string">Additional Lair Actions</name>
+			</id-00002>
+		</lairactions>
+		<languages type="string">Auran, Aarakocra</languages>
+		<legendaryactions>
+			<id-00001>
+				<desc type="string">dddd</desc>
+				<name type="string">ddd</name>
+			</id-00001>
+		</legendaryactions>
+		<locked type="number">1</locked>
+		<name type="string">Ааракокра</name>
+		<nonid_name type="string">Ааракокра</nonid_name>
+		<picture type="token">campaign/images/portraits/MM/Aarakocra.webp</picture>
+		<token type="token">campaign/images/tokens/MM/Aarakocra.webp</token>
+		<token3Dflat type="token"></token3Dflat>
+		<reactions>
+			<id-00001>
+				<desc type="string">dddd</desc>
+				<name type="string">ddd</name>
+			</id-00001>
+		</reactions>
+		<senses type="string">passive Perception 15, darkvision 120 ft.</senses>
+		<size type="string">Small</size>
+		<skills type="string">perception +5</skills>
+		<speed type="string">20 ft., fly 50 ft.</speed>
+		<spells />
+		<text type="formattedtext">
+			<p>&#1047;&#1072;&#1087;&#1080;&#1089;&#1100; &#1090;&#1077;&#1082;&#1089;&#1090;&#1072;</p>
+		</text>
+
+		<traits>
+			<id-00001>
+				<desc type="string">des</desc>
+				<name type="string">1</name>
+			</id-00001>
+			<id-00002>
+				<desc type="string">eds</desc>
+				<name type="string">2</name>
+			</id-00002>
+		</traits>
+		<type type="string">humanoid</type>
+		<xp type="number">0</xp>
+	</npc>
+</root>
